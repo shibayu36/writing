@@ -2,20 +2,9 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## リポジトリ概要
-
-このリポジトリは「blog.shibayu36.org」（はてなブログ）の記事管理用です。技術記事、読書記録、個人的なノートを日本語で執筆しています。
-
-## ディレクトリ構造
-
-```
-writing/
-├── shibayu36.hatenablog.com/entry/  # 公開済みブログ記事
-│   ├── 2010-2012/                  # 旧形式（タイムスタンプ）  
-│   └── YYYY/MM/DD/HHMMSS.md       # 新形式（日付ベース）
-├── drafts/                         # 下書き記事
-└── WRITING.md                      # 執筆スタイルガイド
-```
+## 記事を書くときの注意点
+記事を書くときは必ず @WRITING.md を参照してください。
+また必ず最近の記事をランダムに数記事ピックアップし、それらの文体をできる限り模倣して作るようにしてください。
 
 ## 記事フォーマット
 
@@ -70,7 +59,3 @@ npx textlint --fix --preset preset-ja-spacing --preset preset-ja-technical-writi
 - `tech`: 技術記事・チュートリアル
 - `book`: 書評・読書ノート
 - `misc`: 個人的な振り返り・雑記
-
-## はてなブログとの同期
-
-このリポジトリはblogsyncなどのツールを使ってはてなブログと同期していると推測されます。フロントマターのEditURLが自動同期を示唆しています。
