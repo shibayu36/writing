@@ -112,3 +112,4 @@ dist
 .vscode-test
 
 /.cursor
+.claude/settings.local.json
