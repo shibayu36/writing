@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "preset-ja-spacing": true,
+    "preset-ja-technical-writing": true,
+    "@textlint-ja/preset-ai-writing": true,
+    "spellcheck-tech-word": true
+  }
+}
