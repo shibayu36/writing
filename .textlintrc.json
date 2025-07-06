@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "preset-ja-spacing": true,
+    "preset-ja-technical-writing": {
+      "no-exclamation-question-mark": false,
+      "ja-no-weak-phrase": false,
+      "sentence-length": {
+        "max": 100,
+        "skipPatterns": [
+          "/\\[https?:\\/\\/[^\\]]+\\]/g"
+        ]
+      }
+    },
+    "spellcheck-tech-word": true
+  }
+}
