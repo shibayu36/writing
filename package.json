@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "author": "shibayu36 <shibayu36@gmail.com> (https://github.com/shibayu36)",
   "license": "MIT",
@@ -14,5 +16,8 @@
     "textlint-rule-preset-ja-spacing": "^2.4.3",
     "textlint-rule-preset-ja-technical-writing": "^12.0.2",
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
   }
 }

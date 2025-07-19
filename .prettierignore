@@ -1,0 +1,17 @@
+node_modules/
+dist/
+build/
+coverage/
+*.min.css
+*.min.js
+
+# CSS以外のファイルを無視
+*.js
+*.jsx
+*.ts
+*.tsx
+*.json
+*.md
+*.html
+*.yml
+*.yaml
