@@ -35,6 +35,11 @@ body {
   border-top: 1px solid #fff;
 }
 
+#blog-title-inner #title,
+#blog-title-inner #blog-description {
+  text-align: left;
+}
+
 #blog-title-inner::before {
   content: '';
   display: block;
