@@ -24,8 +24,8 @@ EditURL: https://blog.hatena.ne.jp/shiba_yu36/shibayu36.hatenablog.com/atom/entr
 
 ### 下書きファイル
 - `drafts/`ディレクトリに配置
+- タイトルをファイル名にする。`{タイトル}.md`
 - フロントマター不要
-- 日本語の説明的なファイル名を使用
 
 ## textlint設定
 
