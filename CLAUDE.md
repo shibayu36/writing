@@ -27,22 +27,13 @@ EditURL: https://blog.hatena.ne.jp/shiba_yu36/shibayu36.hatenablog.com/atom/entr
 - タイトルをファイル名にする。`{タイトル}.md`
 - フロントマター不要
 
-## textlint設定
-
-### 利用可能な依存関係
-- `textlint@11.9.0`
-- `textlint-rule-preset-ja-spacing@2.0.2`
-- `textlint-rule-preset-ja-technical-writing@4.0.1`
-- `textlint-rule-spellcheck-tech-word@5.0.0`
-
-### textlint実行方法
-設定ファイルがないため、コマンドラインオプションを使用：
+## textlint実行方法
 ```bash
 # 基本的なlint
-npx textlint --preset preset-ja-spacing --preset preset-ja-technical-writing --rule spellcheck-tech-word [ファイル名]
+npm exec -- textlint [ファイル名]
 
 # 自動修正
-npx textlint --fix --preset preset-ja-spacing --preset preset-ja-technical-writing --rule spellcheck-tech-word [ファイル名]
+npm exec -- textlint --fix [ファイル名]
 ```
 
 ## 執筆スタイル
