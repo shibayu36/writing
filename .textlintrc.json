@@ -11,6 +11,7 @@
         ]
       }
     },
-    "spellcheck-tech-word": true
+    "spellcheck-tech-word": true,
+    "@textlint-ja/preset-ai-writing": true
   }
 }
