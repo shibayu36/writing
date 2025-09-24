@@ -9,6 +9,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - 構成を参考にしてください
 - 文体をできる限り模倣してください
 
+記事は shibayu36.hatenablog.com/ ディレクトリ配下に入っています。
+
 執筆するときは @WRITING_GUIDELINE.md も参照してください。
 
 ## 記事フォーマット
