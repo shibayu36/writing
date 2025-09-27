@@ -20,12 +20,12 @@ presentationID: 1bhs6iPn5ic-5dHKo_PMg9dWWE9XGEqsBZ0JXAGI_oxU
 
 # 今日話すこと
 
-- Vibe Codingで、自分が経験のないiOSアプリを作った
+- Vibe Codingで、サーバーサイドエンジニアが経験のないiOSアプリを作った
 - その中で困ったことと学びを紹介
 
 ---
 
-# Vibe Codingで初めてのiOSアプリ開発
+# 初iOSアプリ開発のきっかけ
 * その日やる気を出すためだけのシンプルなTODOアプリが欲しかった
 * Vibe Codingによって、開発経験のないiOSアプリも<span class="red">簡単に高速に</span>開発できるのでは？
 
@@ -33,7 +33,7 @@ presentationID: 1bhs6iPn5ic-5dHKo_PMg9dWWE9XGEqsBZ0JXAGI_oxU
 
 # 実際に作ってリリースした！
 * [Daily Do](https://apps.apple.com/jp/app/daily-do-%E4%BB%8A%E6%97%A5%E3%81%AEtodo%E3%81%AB%E9%9B%86%E4%B8%AD%E3%81%97%E3%82%88%E3%81%86/id6747943242)
-* ChatGPT / Claude Codeをフル活用し、Vibe Codingで作り切れました
+* AIをフル活用し、Vibe Codingで作り切れました
 
 ![Daily Do AppStore.jpg](./DailyDoAppStore.jpg)
 ![ios_icon.png](./ios_icon.png)
@@ -45,25 +45,27 @@ presentationID: 1bhs6iPn5ic-5dHKo_PMg9dWWE9XGEqsBZ0JXAGI_oxU
 <!-- {"layout": "section_blue"} -->
 
 ---
-# 簡単だった？困らなかった？
+# 簡単ではない！困りまくる！<br>とにかく騙される！
 
-- 全く簡単ではなく、困りまくった
-- 知識がないため、とにかく騙される
+<!-- {"layout": "section_white"} -->
 
-<!-- {"layout": "title_body"} -->
+---
+# どのように騙されたか
+
+<!-- {"layout": "section_white"} -->
 
 ---
 
-# 毎回一貫性のないアーキテクチャを提案される
+# 1. 毎回一貫性のないアーキテクチャを提案される
 
-- コード生成ごとに異なるアーキテクチャを提案される
-- Viewだけで気合いでやろうとする
-- Service/Managerなど大体同じ意味のいろんな命名を提案される
+- コード生成ごとに違う方法を提案される
+    - Viewだけで気合いでやる
+    - やりすぎなClean Architecture
 - <span class="red">基礎知識がない</span>ので判断つかない
 
 ---
 
-# 古いやり方を提案される
+# 2. 古いやり方を提案される
 
 - データバインディングとして、最近はObservableがよく使われる
 - しかし、古いObservableObjectを提案される
@@ -71,10 +73,10 @@ presentationID: 1bhs6iPn5ic-5dHKo_PMg9dWWE9XGEqsBZ0JXAGI_oxU
 
 ---
 
-# 問題に対して間違った対処を提案される
+# 3. 問題に対して間違った対処を提案される
 
 - iCloud同期が本番でだけうまくいかない問題
-- このファイルのこの辺りを消すとうまくいくと提案
+- このファイルのこの行を消すとうまくいくと提案
 - 消してみるとすべてが動かなくなる
 - <span class="red">基礎知識がない</span>ので明らかにおかしい対応に気付けない
 
@@ -94,11 +96,12 @@ presentationID: 1bhs6iPn5ic-5dHKo_PMg9dWWE9XGEqsBZ0JXAGI_oxU
 
 # 0->1を作るための基礎知識だけは学ぶしかない
 
+- Vibe Codingは真似は得意だが、0->1は不安定で騙されやすい
+- 大変でも基礎知識は時間をとって学ぶ
 - たとえば
-    - 良いアーキテクチャは何か
-    - 今使うべき公式APIは何か
-    - モダンなビルド方法、動作確認、linter、依存管理方法は何か
-- この部分は大変でもやるしかない
+    - 良いアーキテクチャ
+    - 今使うべき公式API
+    - linterなどツールチェイン
 
 ---
 
@@ -111,6 +114,8 @@ presentationID: 1bhs6iPn5ic-5dHKo_PMg9dWWE9XGEqsBZ0JXAGI_oxU
 # 自分専用書籍を作る
 
 - Deep Researchで特定の領域の詳しいまとめを作らせる
+    - 例: SwiftUIのViewのライフサイクルを知りたい
+- 本を何冊か読むよりピンポイントに学べる
 
 ![事例](./my-book.png)
 
@@ -120,7 +125,7 @@ presentationID: 1bhs6iPn5ic-5dHKo_PMg9dWWE9XGEqsBZ0JXAGI_oxU
 
 # 自分専用ハンズオンを作る
 
-- [学びたい概念のハンズオン資料を作らせる](https://blog.shibayu36.org/entry/2025/05/13/193000)
+- 手を動かして高速に学ぶため、[専用ハンズオンを作る](https://blog.shibayu36.org/entry/2025/05/13/193000)
 
 ![ハンズオン資料1](./my-handson.png)
 
@@ -132,7 +137,7 @@ presentationID: 1bhs6iPn5ic-5dHKo_PMg9dWWE9XGEqsBZ0JXAGI_oxU
 
 - 基礎は頑張るしかないが、
 - 基礎さえ理解できていれば、AIをコントロールし、結果的にVibe Codingが高速になる
-    - CLAUDE.mdで、理解したアーキテクチャやディレクトリ構造、使うAPIを指示
+    - CLAUDE.mdで、理解したアーキテクチャを指示
 - 一度やれば同じ分野は一瞬に
 
 ---
@@ -145,10 +150,10 @@ presentationID: 1bhs6iPn5ic-5dHKo_PMg9dWWE9XGEqsBZ0JXAGI_oxU
 
 # まとめ
 
-- 詳しくない分野でのVibe Codingでは、騙されまくり回り道になり、言われているほど簡単でなかった
+- 詳しくない分野でのVibe Codingでは、言われているほど簡単でなく、回り道が多かった
 - 基礎知識だけは学ぶしかないが、AIを使って高速に学べる
 - 基礎さえ理解すればAIをコントロールし、高速に開発できる
-- 最初は頑張りましょう
+- Vibe Codingを扱うために、最初は基礎に時間をかけましょう
 
 ---
 
