@@ -16,6 +16,8 @@ presentationID: 1bhs6iPn5ic-5dHKo_PMg9dWWE9XGEqsBZ0JXAGI_oxU
 
 ![アイコン](./illust-icon2.jpg)
 
+<!-- {"freeze": true} -->
+
 ---
 
 # 今日話すこと
@@ -37,6 +39,8 @@ presentationID: 1bhs6iPn5ic-5dHKo_PMg9dWWE9XGEqsBZ0JXAGI_oxU
 
 ![Daily Do AppStore.jpg](./DailyDoAppStore.jpg)
 ![ios_icon.png](./ios_icon.png)
+
+<!-- {"freeze": true} -->
 
 ---
 
