@@ -35,6 +35,8 @@ EditURL: https://blog.hatena.ne.jp/shiba_yu36/shibayu36.hatenablog.com/atom/entr
 - フロントマター不要
 
 ## textlint実行方法
+lintは下書きが完成した時に実行する。下書きを作成中の時には実行しない。
+
 ```bash
 # 基本的なlint
 npm exec -- textlint [ファイル名]
