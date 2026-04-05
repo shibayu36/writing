@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx textlint:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run format:check:*)",
+      "Bash(npm run format:*)",
+      "Bash(npm exec -- textlint *)",
+      "WebFetch(domain:speakerdeck.com)",
+      "WebFetch(domain:tech-blog.cluster.mu)",
+      "Bash(done)"
+    ],
+    "deny": []
+  }
+}
