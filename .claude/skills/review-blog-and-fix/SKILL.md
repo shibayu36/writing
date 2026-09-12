@@ -1,7 +1,7 @@
 ---
 name: review-blog-and-fix
 description: ブログ記事を core-message-reviewer / style-reviewer / (技術系記事のみ) tech-accuracy-reviewer で一斉レビューし、各指摘の妥当性を検証して妥当なものだけ反映する
-argument-hint: [記事ファイル] [reviewer名]
+argument-hint: "[記事ファイル] [reviewer名]"
 user-invocable: true
 ---
 
