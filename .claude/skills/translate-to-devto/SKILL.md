@@ -1,9 +1,14 @@
 ---
-allowed-tools: Read, WebFetch, TodoWrite, Grep, WebSearch, Search
+name: translate-to-devto
 description: shibayu36.hatenablog.com/配下の日本語ブログ記事をdev.to用に英語翻訳する
+argument-hint: "[記事ファイル]"
+user-invocable: true
+allowed-tools: Read, WebFetch, TodoWrite, Grep, WebSearch
 ---
 
 ファイル: $ARGUMENTS
+
+対象ファイルが渡されていない場合は、翻訳する記事のパスをユーザーに確認する。
 
 ultrathink
 
