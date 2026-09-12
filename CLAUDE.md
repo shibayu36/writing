@@ -13,6 +13,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 執筆するときは @WRITING_GUIDELINE.md も参照してください。
 
+ドラフトを書き終えたら、ユーザーに下書きの確認を求める前に、まず /review-blog-and-fix スキルを実行してレビューと修正を済ませること。
+
 ## 記事フォーマット
 
 ### 公開記事の構造
