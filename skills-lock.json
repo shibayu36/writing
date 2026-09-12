@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "stop-ai-slop-jp": {
+      "source": "iKora128/stop-ai-slop-jp",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "4165359286fda94f6d21888bce8286af3c13c7ddb2c162ecb7c311840ef5eeca"
+    }
+  }
+}
