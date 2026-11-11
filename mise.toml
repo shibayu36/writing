@@ -1,0 +1,2 @@
+[shell_alias]
+blogsync = "op run --env-file=blogsync.env -- blogsync"
